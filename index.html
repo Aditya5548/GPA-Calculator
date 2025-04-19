@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+<div class="calculator">
+  <h2 class="heading">CGPA Calculator</h2> 
+  <div class="data">
+    <h2>
+        <div>
+            grade point: 
+        </div>
+        <div>
+            A+ = 10 &nbsp; &nbsp; A = 9 <br>
+            B+ = 8 &nbsp; &nbsp; &nbsp;&nbsp;B = 7 <br>
+            C = 6 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;D = 5 <br>
+            E = 4 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;F = 0 
+        </div>
+    </h2>
+  </div>
+  <button onclick="addCourse()">Add Subject</button>
+  <button onclick="delCourse()">Clear Subject</button>
+  <div id="courses"> <p id="description">Click on Add Subject ?</p></div>
+  <button onclick="calculateCGPA()">Calculate CGPA</button>
+
+  <h3 id="result"></h3>
+
+</div>
+</div>
+  <script src="index.js"></script>
+
+</body>
+</html>
