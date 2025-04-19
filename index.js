@@ -10,11 +10,10 @@ function addCourse() {
   div.innerHTML = `
     <label>Subject ${courseCount} 
     <br>
-    Grade Point: 
-      <input type="number" min="0" max="10" step="0.01" class="grade">
+      <input type="number" min="0" max="10" step="0.01" class="grade" placeholder="Grade Point">
     </label>
-    <br>
-    <label> Credit: <input type="number" min="1" class="credit"></label>
+      <input type="number" min="1" class="credit" placeholder="Credits">
+    </label>
   `;
   
   container.appendChild(div);
