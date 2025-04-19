@@ -14,9 +14,7 @@ function addCourse() {
       <input type="number" min="0" max="10" step="0.01" class="grade">
     </label>
     <br>
-    <label> Credit:  &nbsp; &nbsp; &nbsp;
-      <input type="number" min="1" class="credit">
-    </label>
+    <label> Credit: <input type="number" min="1" class="credit"></label>
   `;
   
   container.appendChild(div);
