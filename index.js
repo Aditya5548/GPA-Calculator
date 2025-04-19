@@ -13,7 +13,8 @@ function addCourse() {
     Grade Point: 
       <input type="number" min="0" max="10" step="0.01" class="grade">
     </label>
-    <label> Credit: 
+    <br>
+    <label> Credit:  &nbsp; &nbsp; &nbsp; &nbsp;
       <input type="number" min="1" class="credit">
     </label>
   `;
