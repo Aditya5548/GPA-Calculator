@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', 'sans-serif';
+  box-sizing: border-box;
+}
+body {
+  background: rgb(233, 207, 207);
+}
+.container{
+  
+  background-color: aquamarine
+}
+.calculator{
+  padding: 0px 0px 30px 0px;
+  background-color: white;
+  justify-items: center;
+}
+.data
+{
+  background-color: bisque;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.heading{
+    color: red;
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    
+}
+#courses{
+  padding: 20px;
+  font-size: 15px;
+}
+#description{
+  font-size: 30px;
+  color: brown;
+}
+#result{
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+}
+input{
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.course-inputs {
+    margin-bottom: 10px;
+  }
+
+
+
+button{
+  padding: 10px 12px 10px 12px;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+}
+.modal-header{
+  height: 50px;
+  background-color: red;
+}
+.modal-header button{
+  background-color: transparent;
+}
+
+.modal-header button span{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.modal-title{
+color: white;
+font-weight: bolder;
+}
+
